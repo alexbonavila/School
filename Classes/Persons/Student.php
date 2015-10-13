@@ -21,6 +21,38 @@ class Student extends Person{
 
     }
 
+    /**
+     * @return bool|null
+     */
+    public function getDual()
+    {
+        return $this->dual;
+    }
+
+    /**
+     * @param bool|null $dual
+     */
+    public function setDual($dual)
+    {
+        $this->dual = $dual;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getClassroomGroup()
+    {
+        return $this->classroomGroup;
+    }
+
+    /**
+     * @param mixed $classroomGroup
+     */
+    public function setClassroomGroup($classroomGroup)
+    {
+        $this->classroomGroup = $classroomGroup;
+    }
+
 
     public function render(){
         $this->type = Student;
