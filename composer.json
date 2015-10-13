@@ -1,0 +1,16 @@
+{
+    "name": "alumne/school",
+    "description": "bla bla",
+    "authors": [
+        {
+            "name": "alexbonavila",
+            "email": "alexbonavila@iesebre.com"
+        },
+        "autoload" : {
+            "psr-4" : {
+                "Com\\Iesebre\\Dam2\\alexbonavila" : "Clases"
+            }
+        }
+    ],
+    "require": {}
+}
