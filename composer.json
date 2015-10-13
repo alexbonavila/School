@@ -5,12 +5,12 @@
         {
             "name": "alexbonavila",
             "email": "alexbonavila@iesebre.com"
-        },
-        "autoload": {
-            "psr-4" : {
-                "Com\\Iesebre\\Dam2\\alexbonavila" : "Clases"
-            }
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Com\\Iesebre\\Dam2\\alexbonavila": "Classes"
+        }
+    },
     "require": {}
 }
