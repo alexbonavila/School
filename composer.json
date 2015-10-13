@@ -6,7 +6,7 @@
             "name": "alexbonavila",
             "email": "alexbonavila@iesebre.com"
         },
-        "autoload" : {
+        "autoload": {
             "psr-4" : {
                 "Com\\Iesebre\\Dam2\\alexbonavila" : "Clases"
             }

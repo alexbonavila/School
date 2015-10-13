@@ -6,7 +6,7 @@
  * Date: 5/10/15
  * Time: 19:58
  */
-class StudySubModule{
+class StudySubModule extends StudyModule{
     public $submodulename;
 
     /**
